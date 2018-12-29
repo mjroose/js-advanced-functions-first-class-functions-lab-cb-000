@@ -18,3 +18,7 @@ const createFareMultiplier = (multiplier) => {
 const fareDoubler = createFareMultiplier(2);
 
 const fareTripler = createFareMultiplier(3);
+
+const fetchSpecifiedDrivers = (drivers, cb) => {
+  return cb(drivers);
+};
