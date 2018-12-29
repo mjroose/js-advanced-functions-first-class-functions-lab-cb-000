@@ -9,8 +9,8 @@ const returnLastTwoDrivers = (drivers) => {
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-const createFareMultiplier = (multiplier_outer) => {
-  return (value, multiplier_inner = multiplier_outer ) => {
-    return value * multiplier_inner;
+const createFareMultiplier = (multiplier) => {
+  return (value) => {
+    return value * multiplier;
   };
 };
