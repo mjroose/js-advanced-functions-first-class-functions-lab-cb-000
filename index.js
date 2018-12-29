@@ -8,5 +8,5 @@ const returnLastTwoDrivers = (drivers) => {
 };
 
 const selectingDrivers = () => {
-  return [(returnFirstTwoDrivers), (returnLastTwoDrivers)];
+  return [returnFirstTwoDrivers, returnLastTwoDrivers];
 };
